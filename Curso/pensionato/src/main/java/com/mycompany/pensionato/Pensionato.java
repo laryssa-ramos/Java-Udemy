@@ -6,7 +6,7 @@ package com.mycompany.pensionato;
 
 import entities.Rent;
 import java.util.Locale;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  *

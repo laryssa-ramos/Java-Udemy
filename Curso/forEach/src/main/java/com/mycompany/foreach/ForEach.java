@@ -5,7 +5,7 @@
 package com.mycompany.foreach;
 
 /**
- *
+ * 
  * @author Laryssa
  */
 public class ForEach {
