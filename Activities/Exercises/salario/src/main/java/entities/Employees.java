@@ -9,10 +9,14 @@ package entities;
  * @author Laryssa
  */
 public class Employees {
-    
+     
     private Integer id;
     private String name;
     private Double salary;
+    
+    public Employees(){
+        
+    }
 
     public Employees(Integer id, String name, Double salary) {
         this.id = id;
@@ -45,6 +49,10 @@ public class Employees {
     }
     
     public void increaseSalary(double percentage){
-        
+        salary += + salary * percentage / 100.0;
+    }
+    
+    public String toString(){
+        return id + "," + name + "," + String.format("%.2f", salary);
     }
 }
