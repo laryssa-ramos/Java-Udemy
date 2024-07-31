@@ -1,0 +1,6 @@
+entities/Client.class
+com/mycompany/pedido/Pedido.class
+entities/Order.class
+entities/enums/OrderStatus.class
+entities/Product.class
+entities/OrderItem.class
