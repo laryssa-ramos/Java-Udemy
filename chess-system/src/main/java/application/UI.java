@@ -99,6 +99,7 @@ public class UI {
                 System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
             }
         }
+        
         System.out.print(" ");
 	}
 }

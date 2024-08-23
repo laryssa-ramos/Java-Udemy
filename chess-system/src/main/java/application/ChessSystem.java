@@ -41,6 +41,7 @@ public class ChessSystem {
          }
          catch (ChessException e){
              System.out.println(e.getMessage());
+             
              sc.nextLine();
          }
          catch(InputMismatchException e){
